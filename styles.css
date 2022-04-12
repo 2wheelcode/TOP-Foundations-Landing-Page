@@ -18,8 +18,18 @@
     display: flex;
 }
 
+.logo {
+    display: flex;
+    width: 45%;
+}
 .main-header {
 
+}
+
+.hero-image {
+    display: flex;
+    width: 35%;
+    height: auto;
 }
 
 .example-loads {
@@ -45,16 +55,23 @@
 }
 
 .headline {
+    display: flex;
     color: #e5e7eb;
     font-size: 48px;
     font-weight: bolder;
+}
+
+.secondary {
+    display: flex;
+    color: #e5e7eb;
 }
 
 .italic {
     font-style: italic;
 }
 
-a, .secondary {
+a {
+    display: flex;
     text-decoration: none;
     color: #e5e7eb;
 }
