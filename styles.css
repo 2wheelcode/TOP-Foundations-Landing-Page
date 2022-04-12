@@ -38,6 +38,16 @@
     border: #00f solid 2px;
 }
 
+.load-pic {
+    width: 20vw;
+    height: auto;
+}
+
+.location {
+    width: 20vw;
+    height: auto;
+}
+
 .quote {
     color: #1f2937;
     font-size: 36px;
@@ -47,9 +57,22 @@
     border: red solid 2px;
 }
 
-.footer { /* Change this to "Call to action", there is a small copyright footer below */
+.call-action { 
+    display: flex;
     background-color: #f0ffff;
     border: #00f solid 2px;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    border: #f0ffff solid 2px;
 }
 
 .button {
