@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    border: red solid 2px;
+}
+
+.example-loads {
+    background-color: #f0ffff;
+    border: red solid 2px;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    border: red solid 2px;
+}
+
+.footer {
+    background-color: #f0ffff;
+    border: red solid 2px;
+}
+
+.button {
+    background-color: #3882f6;
+}
