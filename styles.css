@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 300;
     padding: 0;
 }
 
@@ -8,26 +8,53 @@
     flex-direction: column;
 }
 
-.header {
+.header-section {
+    display: flex;
     background-color: #1f2937;
-    border: red solid 2px;
+    border: #ff0000 solid 2px;
+}
+
+.upper-header {
+    display: flex;
+}
+
+.main-header {
+
 }
 
 .example-loads {
     background-color: #f0ffff;
-    border: red solid 2px;
+    border: #00f solid 2px;
 }
 
-.quotes {
+.quote {
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
     background-color: #e5e7eb;
     border: red solid 2px;
 }
 
 .footer {
     background-color: #f0ffff;
-    border: red solid 2px;
+    border: #00f solid 2px;
 }
 
 .button {
     background-color: #3882f6;
+}
+
+.headline {
+    color: #e5e7eb;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a, .secondary {
+    text-decoration: none;
+    color: #e5e7eb;
 }
