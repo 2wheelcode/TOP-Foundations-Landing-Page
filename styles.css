@@ -21,33 +21,34 @@
 }
 
 /* Top of Header Section */
-.upper-header {
+nav {
     width: 100%;
+}
+
+nav ul {
     display: flex;
-    justify-content: space-between;
-    border: #ff0000 solid 2px;
+    margin: 12px 18px;
+    list-style-type: none;
+}
+
+.push {
+    margin-left: auto;
 }
 
 .logo {
-    width: 125px;
+    width: 200px;
     height: auto;
     border-radius: 5px;
-    margin: 8px;
-    border: greenyellow solid 2px;
 }
 
-ul {
-    display: flex;
-}
-
+/* Links */
 a {
     text-decoration: none;
     color: #e5e7eb;
     margin: 8px;
-    border: greenyellow solid 2px;
 }
 
-a:hover {
+a:hover { /* The Transform and Transition doesn't work? */
     cursor: pointer;
     transform: scale(1.1);
     transition: all .3s ease-in-out;
@@ -144,7 +145,6 @@ a:hover {
     text-align: center;
     padding: 20px;
     background-color: #1f2937;
-    border: #f0ffff solid 2px;
 }
 
 /* Button */
