@@ -7,12 +7,20 @@
     width: 80vw;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
 }
+
+/* sections */
 
 .header-section {
     display: flex;
     background-color: #1f2937;
     border: #ff0000 solid 2px;
+}
+
+.info-section {
+    background-color: #fffff0;
 }
 
 .upper-header {
@@ -36,53 +44,40 @@
     border-radius: 8px;
 }
 
-.example-loads {
+.example-loads, .places {
     display: flex;
     flex-wrap: wrap;
     padding: 0 150px;
+    margin-bottom: 20px;
     gap: 30px;
-    background-color: #f0ffff;
     border: #00f solid 2px;
-}
-
-
-.load-1, .load-2, .load-3, .load-4, .load-5, .load-6, .load-7, .load-8, .load-9, .load-10 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
 }
 
 .load-pic {
     border-radius: 8px;
-    width: 12vw;
+    width: 15vw;
     height: auto;
-}
-
-.places {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .location {
+    border-radius: 8px;
     width: 20vw;
     height: auto;
 }
-
 .quote {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     text-align: center;
-    padding: 100px 200px;
+    padding: 100px 175px;
     background-color: #e5e7eb;
     border: red solid 2px;
 }
 
 .call-action { 
     display: flex;
-    background-color: #f0ffff;
+    background-color: #fffff0;
     border: #00f solid 2px;
 }
 

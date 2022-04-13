@@ -15,3 +15,15 @@ I have completed and received the following Cert's:
 -Python3 Foundations (Mar 2022)
 
 I struggled with CSS, but got through it. upon attempting to complete my first stagier project, I was struggling hard with the CSS, so I started looking for more resources to boost my skills and understanding, that's how I found TOP.
+
+Notes to myself:
+I keep making CSS and Flex layout too complicated
+
+
+Feedback from others is appreciated!
+Please feel free to critique.
+Create a section beginning with your name, and list in point format
+
+Example (name):
+-point 1
+-tip 2
