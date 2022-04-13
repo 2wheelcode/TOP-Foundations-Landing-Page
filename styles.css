@@ -19,7 +19,6 @@
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
-    border: #ff0000 solid 2px;
 }
 
 .upper-header {
@@ -47,22 +46,36 @@ a {
     border: greenyellow solid 2px;
 }
 
+a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
 ul {
     display: flex;
     justify-content: space-evenly;
 }
+
 .main-header {
-    border: #ff0000 solid 2px;
+    display: flex;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 50px 150px;
 }
 
 .hero-image {
-    display: flex;
     width: 35%;
     height: auto;
     border-radius: 8px;
-    
+    margin: 0px 150px 50px 15px;
+    border: #708090 solid 2px;
 }
 
+/* Info Section */
 .info-section {
     background-color: #f4f7fb;
 }
@@ -79,7 +92,7 @@ ul {
     border-radius: 8px;
     width: 15vw;
     height: auto;
-    border:  solid 2px;
+    border: #708090 solid 2px;
 }
 
 .location {
@@ -88,6 +101,9 @@ ul {
     height: auto;
     border: #708090 solid 2px;
 }
+/* End Info Section */
+
+/* Quote Section */
 .quote {
     color: #1f2937;
     font-size: 36px;
@@ -98,18 +114,26 @@ ul {
     background-color: #e5e7eb;
 }
 
+/* Call to Action Section */
 .call-action { 
-    display: flex;
+    padding: 100px;
     background-color: #f4f7fb;
 }
 
 .action-box {
-    display: flex;
-    padding: 50px;
-    background-color: #f4f7fb;
-
+    border-radius: 8px;
+    padding: 75px;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #3882f6;
 }
 
+.action-box, .btn-styled {
+    float: right;
+}
+
+/* Footer Section */
 .footer {
     color: #e5e7eb;
     font-size: 12px;
@@ -119,10 +143,27 @@ ul {
     border: #f0ffff solid 2px;
 }
 
-.button {
+/* Button */
+.btn-styled {
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 5px;
+    width: fit-content;
     background-color: #3882f6;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
+.btn-styled:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+/* Font Section */
 .headline {
     display: flex;
     color: #e5e7eb;
@@ -145,12 +186,18 @@ ul {
     margin: 25px 0;
 }
 
-.secondary { /* Might not need this */
-    display: flex;
+.secondary { 
+    font-size: 18px;
+    font-weight: 500;
     color: #e5e7eb;
 } 
 
 .italic {
+    font-style: italic;
+}
+
+.light-italic {
+    font-size: 16px;
     font-style: italic;
 }
 
