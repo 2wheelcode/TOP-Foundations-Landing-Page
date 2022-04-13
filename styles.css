@@ -12,8 +12,7 @@
     background-color: #fff;
 }
 
-/* sections */
-
+/* Header Sections */
 .header-section {
     display: flex;
     flex-direction: column;
@@ -21,6 +20,7 @@
     background-color: #1f2937;
 }
 
+/* Top of Header Section */
 .upper-header {
     width: 100%;
     display: flex;
@@ -29,8 +29,6 @@
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
     width: 125px;
     height: auto;
     border-radius: 5px;
@@ -38,8 +36,11 @@
     border: greenyellow solid 2px;
 }
 
-a {
+ul {
     display: flex;
+}
+
+a {
     text-decoration: none;
     color: #e5e7eb;
     margin: 8px;
@@ -52,11 +53,7 @@ a:hover {
     transition: all .3s ease-in-out;
 }
 
-ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
+/* Front and Center of Header */
 .main-header {
     display: flex;
 }
@@ -80,7 +77,7 @@ ul {
     background-color: #f4f7fb;
 }
 
-.example-loads, .places {
+.example-work, .been {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
